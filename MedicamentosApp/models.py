@@ -3,6 +3,8 @@ from __future__ import unicode_literals
 from django.db import models
 
 # Create your models here.
+<<<<<<< HEAD
+=======
 class farmacia(models.Model):
     cod_farmacia=models.CharField(max_length=20)
     nombre=models.CharField(max_length=20)
@@ -19,3 +21,4 @@ class medicamento(models.Model):
 
     def __unicode__(self):
         return self.nombre
+>>>>>>> 104b1ee00d80dbad3b77df7cdfca9639f4d51813
