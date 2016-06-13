@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+{% load staticfiles %}
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<!-- Mirrored from html5up.net/uploads/demos/phantom/generic.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 May 2016 02:28:33 GMT -->
+<head>
+		<title>Medicamentos de venta libre</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="{% static 'assets/css/main.css'%}" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index-2.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">GRUPO 10</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="{% url 'main' %}">Inicio</a></li>
+
+							<li><a href="{% url 'formula' %}">formulas</a></li>
+							<li><a href="#">Graficos</a></li>
+							<li><a href="http://127.0.0.1:8000/admin/">Iniciar Sesion</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+					<h2><center>Lista de medicamentos</center> </h2>
+			<p2><center>AQUI SE MOSTRARAN LOS DATOS DE LOS MEDICAMENTOS DE VENTA LIBRE</P2>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="field half first">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="field half">
+										<input type="email" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="special" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="#" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net/">HTML5 UP</a></li><li>Demo Images: <a href="http://unsplash.com/">Unsplash</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+			<!-- Scripts -->
+				<script src="{% static 'assets/js/jquery.min.js'%}"></script>
+				<script src="{% static 'assets/js/skel.min.js'%}"></script>
+				<script src="{% static 'assets/js/util.js'%}"></script>
+				<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+				<script src="{% static 'assets/js/main.js'%}"></script>
+
+		</body>
+
+	<!-- Mirrored from html5up.net/uploads/demos/phantom/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 May 2016 02:28:32 GMT -->
+	</html>
