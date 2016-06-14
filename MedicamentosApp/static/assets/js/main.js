@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*
 	Phantom by HTML5 UP
 	html5up.net | @n33co
@@ -198,7 +198,7 @@
 
 	});
 
-=======
+
 /*
 	Phantom by HTML5 UP
 	html5up.net | @n33co
@@ -398,5 +398,4 @@
 
 	});
 
->>>>>>> 104b1ee00d80dbad3b77df7cdfca9639f4d51813
 })(jQuery);
