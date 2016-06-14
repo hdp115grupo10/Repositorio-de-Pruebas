@@ -1,8 +1,9 @@
 from __future__ import unicode_literals
-
 from django.db import models
 
 # Create your models here.
+
+
 class farmacia(models.Model):
     cod_farmacia=models.CharField(max_length=20)
     nombre=models.CharField(max_length=20)

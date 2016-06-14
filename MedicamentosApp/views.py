@@ -8,6 +8,12 @@ def main(request):
     return render_to_response('index.html',{})
 
 def medicamentos(request):
+
+    return render_to_response('medicamentos.html',{})
+
+def formula(request):
+    return render_to_response('formula.html',{})
+
     medicamentos=medicamento.objects.all()
     return render_to_response('medicamentos.html',locals())
 
